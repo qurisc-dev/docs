@@ -31,6 +31,8 @@ SRAM
 
 SRAM控制器被封装成一个独立的IP核，方便用于Block Design和重用。
 
+参见：https://github.com/qurisc-dev/thinpad_sram/
+
 .. warning::
    SRAM控制器的Fixed和Wrap模式都未经过仔细测试，可能会包含未知的Bug。
    

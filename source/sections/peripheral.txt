@@ -1,9 +1,0 @@
-Peripherals
-========
-
-QuSim用到的片外设备，包括SRAM、串口、GPIO。
-
-SRAM
-========
-
-异步SRAM无法直接使用

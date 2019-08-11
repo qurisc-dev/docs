@@ -12,6 +12,8 @@ Welcome to QuSim's documentation!
 
 本文档的目的在于描述QuSim的硬件和软件设计。
 
+GitHub：https://github.com/qurisc-dev/
+
 1. QuSim的乱序执行CPU的设计。
 2. QuSim的矩阵乘法加速器的设计。
 3. 针对QuSim的编译器的设计。
