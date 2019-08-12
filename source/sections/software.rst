@@ -1,8 +1,13 @@
 矩阵乘法加速与量子程序模拟
 ========
 
+
 Systolic Array
 --------
+
+https://github.com/qurisc-dev/qusim
+
+
 考虑到量子计算模拟器中存在大量的矩阵运算需求，我们引入了协处理器Systolic Array用来加速矩阵运算。
 
 实现原理
@@ -53,6 +58,8 @@ Memory mapping
 Quantum Compiler
 --------
 
+https://github.com/qurisc-dev/qusim-compiler/tree/master/qcomp
+
 实现功能
 ^^^^^^^^
 
@@ -83,7 +90,9 @@ Quantum Compiler
 Testbench
 --------
 
-简单的协处理器Testbench：
+https://github.com/qurisc-dev/qusim-compiler/tree/master/testbench
+
+简单的协处理器Testbench
 ^^^^^^^^
 
 为了测试协处理器本身，我们编写了一组工具，用于随机生成矩阵乘法测试样例，从而测试协处理器的正确性。
